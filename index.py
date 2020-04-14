@@ -1,4 +1,4 @@
-# Using the print command in python.
+# ============================================    Using the print command in python.
 
 # print('welcom to python 102!')
 # print('welcom to python 101!')
@@ -6,7 +6,7 @@
 # print('Create nails')
 # print('Use hammer and nails')
 
-# Working with Variables
+# ============================================    Working with Variables
 
 # failed_subjects = '2'
 # name = 'John'
@@ -18,7 +18,7 @@
 # print(name + ' is doing well in geography.')
 
 
-# Working with Datatypes
+# ============================================    Working with Datatypes
 
 # failed_subjects = 2
 # name = 'John'
@@ -58,7 +58,7 @@
 #     'j should be "3.01"': j
 # })
 
-# Variables and Datatypes Exercise
+# ============================================    Variables and Datatypes Exercise
 
 #Create appropriate variables for items name, the price and hom many you have in stock.
 
@@ -82,7 +82,7 @@
 # print('Modulus : ', a % b)
 # print('Exponent : ', a ** b)
 
-# Working with Strings
+# ============================================    Working with Strings
 
 # msg = 'welcome to python 101 : Strings'
 # print(msg)
@@ -100,7 +100,7 @@
 # print(new_string.title())
 # print(new_string[::-1].title())
 
-# Find and Replace, String Formating
+# ============================================    Find and Replace, String Formating
 
 # msg = """Dear Terry,, 
 # You must cut down the mightiest
@@ -118,3 +118,19 @@
 # msg4 = f'[{name.capitalize()}] loves the color {color.lower()}!'
 # print(msg3)
 # print(msg4)
+
+# ============================================  Working with User Input
+# name = input('What is your name?: ')
+# age = input('What is your age?: ')
+# print(f'Hello {name}! You are {age} years old.') 
+
+# num1 = input('Enter a digit: ')
+# num2 = input('Enter a second digit: ')
+# ans = float(num1) + float(num2)
+# print(ans)
+
+# User Input Exercise
+name = input('What your name?: ')
+distance_km = input('What kilometer would like to convert?: ')
+distance_mi = float(distance_km) * 0.62137
+print(f'Hello {name.capitalize()}! your distance is {distance_mi} miles')
