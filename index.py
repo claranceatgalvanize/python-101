@@ -6,7 +6,7 @@
 # print('Create nails')
 # print('Use hammer and nails')
 
-# Variables
+# Working with Variables
 
 # failed_subjects = '2'
 # name = 'John'
@@ -18,7 +18,7 @@
 # print(name + ' is doing well in geography.')
 
 
-# Data Types
+# Working with Datatypes
 
 # failed_subjects = 2
 # name = 'John'
@@ -69,16 +69,28 @@
 
 # print(itme_name,price,inventory, is_in_inventory)
 
-# Arithmetic Operations
+# Working with Arithmetic Operations
 
-a = 10
-b = 3
+# a = 10
+# b = 3
 
-print('Addition : ', a + b)
-print('Subtraction : ', a - b)
-print('Multiplication : ', a * b)
-print('Division (float)  : ', a / b)
-print('Division (floor)  : ', a // b)
-print('Modulus : ', a % b)
-print('Exponent : ', a ** b)
+# print('Addition : ', a + b)
+# print('Subtraction : ', a - b)
+# print('Multiplication : ', a * b)
+# print('Division (float)  : ', a / b)
+# print('Division (floor)  : ', a // b)
+# print('Modulus : ', a % b)
+# print('Exponent : ', a ** b)
 
+# Working with Strings
+
+msg = 'welcome to python 101 : Strings'
+print(msg)
+print(msg.upper())
+print(msg.lower())
+print(msg.capitalize())
+print(msg.title())
+print(len(msg))
+print(msg.count('t'))
+# slicing string into characters
+print(msg[:5])
