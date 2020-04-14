@@ -62,10 +62,23 @@
 
 #Create appropriate variables for items name, the price and hom many you have in stock.
 
-itme_name = 'bulb'
-price = 9.99
-inventory = 120
-is_in_inventory = True
+# itme_name = 'bulb'
+# price = 9.99
+# inventory = 120
+# is_in_inventory = True
 
-print(itme_name,price,inventory, is_in_inventory)
+# print(itme_name,price,inventory, is_in_inventory)
+
+# Arithmetic Operations
+
+a = 10
+b = 3
+
+print('Addition : ', a + b)
+print('Subtraction : ', a - b)
+print('Multiplication : ', a * b)
+print('Division (float)  : ', a / b)
+print('Division (floor)  : ', a // b)
+print('Modulus : ', a % b)
+print('Exponent : ', a ** b)
 
