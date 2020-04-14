@@ -84,7 +84,7 @@
 
 # Working with Strings
 
-msg = 'welcome to python 101 : Strings'
+# msg = 'welcome to python 101 : Strings'
 # print(msg)
 # print(msg.upper())
 # print(msg.lower())
@@ -96,6 +96,25 @@ msg = 'welcome to python 101 : Strings'
 # print(msg[:5])
 
 
-new_string = msg[18] + ' ' + msg[:8] + msg[-5:-1]+ msg[7:11] + msg[13] + msg[12] + msg[2] + msg[6] + msg[-5]
-print(new_string.title())
-print(new_string[::-1].title())
+# new_string = msg[18] + ' ' + msg[:8] + msg[-5:-1]+ msg[7:11] + msg[13] + msg[12] + msg[2] + msg[6] + msg[-5]
+# print(new_string.title())
+# print(new_string[::-1].title())
+
+# Find and Replace, String Formating
+
+# msg = """Dear Terry,, 
+# You must cut down the mightiest
+# tree in the forest with...
+# a herring! <3"""
+
+# msg1 = 'Welcome to Python 101: Strings'
+# msg2 = msg1.replace('Python', 'Java')
+# print(msg2)
+# print('Python' in msg1)
+
+# name = 'CLARANCE'
+# color = 'RED'
+# msg3 = '[' + name +'] loves the color ' + color + '!'
+# msg4 = f'[{name.capitalize()}] loves the color {color.lower()}!'
+# print(msg3)
+# print(msg4)
