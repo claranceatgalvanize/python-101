@@ -85,12 +85,17 @@
 # Working with Strings
 
 msg = 'welcome to python 101 : Strings'
-print(msg)
-print(msg.upper())
-print(msg.lower())
-print(msg.capitalize())
-print(msg.title())
-print(len(msg))
-print(msg.count('t'))
+# print(msg)
+# print(msg.upper())
+# print(msg.lower())
+# print(msg.capitalize())
+# print(msg.title())
+# print(len(msg))
+# print(msg.count('t'))
 # slicing string into characters
-print(msg[:5])
+# print(msg[:5])
+
+
+new_string = msg[18] + ' ' + msg[:8] + msg[-5:-1]+ msg[7:11] + msg[13] + msg[12] + msg[2] + msg[6] + msg[-5]
+print(new_string.title())
+print(new_string[::-1].title())
