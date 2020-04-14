@@ -1,2 +1,5 @@
 print('welcom to python 102!')
 print('welcom to python 101!')
+print('Create hammer')
+print('Create nails')
+print('Use hammer and nails')
