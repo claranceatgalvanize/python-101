@@ -1,4 +1,4 @@
-# ============================================    Using the print command in python.
+# WORKING THE PRINT METHOD ######################################
 
 # print('welcom to python 102!')
 # print('welcom to python 101!')
@@ -6,7 +6,7 @@
 # print('Create nails')
 # print('Use hammer and nails')
 
-# ============================================    Working with Variables
+# WORKING WITH VARIABLES ########################################
 
 # failed_subjects = '2'
 # name = 'John'
@@ -18,7 +18,7 @@
 # print(name + ' is doing well in geography.')
 
 
-# ============================================    Working with Datatypes
+# WORKING WITH DATATYPES #######################################
 
 # failed_subjects = 2
 # name = 'John'
@@ -58,7 +58,7 @@
 #     'j should be "3.01"': j
 # })
 
-# ============================================    Variables and Datatypes Exercise
+# Variables and Datatypes Exercise ------------------------------
 
 #Create appropriate variables for items name, the price and hom many you have in stock.
 
@@ -66,10 +66,9 @@
 # price = 9.99
 # inventory = 120
 # is_in_inventory = True
-
 # print(itme_name,price,inventory, is_in_inventory)
 
-# Working with Arithmetic Operations
+#WORKING WITH ARITHMETIC OPERATIONS #############################
 
 # a = 10
 # b = 3
@@ -82,7 +81,7 @@
 # print('Modulus : ', a % b)
 # print('Exponent : ', a ** b)
 
-# ============================================    Working with Strings
+# WORKING WITH STRINGS ##########################################
 
 # msg = 'welcome to python 101 : Strings'
 # print(msg)
@@ -100,7 +99,7 @@
 # print(new_string.title())
 # print(new_string[::-1].title())
 
-# ============================================    Find and Replace, String Formating
+# Find and Replace, String Formating ---------------------------
 
 # msg = """Dear Terry,, 
 # You must cut down the mightiest
@@ -119,7 +118,7 @@
 # print(msg3)
 # print(msg4)
 
-# ============================================  Working with User Input
+# WORKING WITH USER INPUTS ####################################
 # name = input('What is your name?: ')
 # age = input('What is your age?: ')
 # print(f'Hello {name}! You are {age} years old.') 
@@ -130,7 +129,93 @@
 # print(ans)
 
 # User Input Exercise
-name = input('What your name?: ')
-distance_km = input('What kilometer would like to convert?: ')
-distance_mi = float(distance_km) * 0.62137
-print(f'Hello {name.capitalize()}! your distance is {distance_mi} miles')
+# name = input('What your name?: ')
+# distance_km = input('What kilometer would like to convert?: ')
+# distance_mi = float(distance_km) * 0.62137
+# print(f'Hello {name.capitalize()}! your distance is {distance_mi} miles')
+
+
+# WORKING WITH LIST ###########################################
+
+friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham'] # creating a list
+
+# ACCESSING LIST ELEMENTS -------------------------------------
+
+# accessing list elements
+# print(friends[1], friends[4])
+# print(friends[2:4]) 
+# print(friends[:3])  
+# print(friends[:]) 
+# print(len(friends)) # get list lenght
+# print(friends.index('Eric')) # get Eric's index
+# print(friends.count('Eric')) # number of occurences of eric
+
+# cars = [911, 130, 328, 535, 740, 308]
+
+# print(friends)
+# print(cars)
+
+# SORTING A LIST ----------------------------------------------
+
+# friends.sort()# sorts list top to bottom
+# print(friends) 
+# friends.sort(reverse = True) # sorts list bottom to top
+# print(friends) 
+# friends.reverse() # reverses the order of the list
+# print(friends)
+
+# print(min(friends)) # output the smallest element
+# print(max(friends)) # output the largest element
+# print(min(cars)) # output the smallest element
+# print(max(cars)) # output the largest element
+# print(sum(cars)) # sums up the elements of the list
+
+# ADDING ELEMENTS TO A LIST -----------------------------------
+
+# friends.append('Terry') # adds an el at the end of a list
+# friends.insert(1, 'TerryG') # puts an el at a specific index in a list
+# friends[2]='Clarance' # puts an el at a specific index in a list
+# friends.extend(cars) # merges multiple lists
+# print(friends)
+
+# REMOVING ELEMENTS FROM A LIST -------------------------------
+
+# friends.remove('TerryG')
+# friends.pop()
+# friends.clear()
+# del friends[1]
+# print(friends)
+
+# COPYING A LIST -------------------------------
+
+# new_friends = friends.copy()
+# new_friends = list(friends)
+# new_friends = friends[:]
+
+# print('new friends: ', new_friends)
+
+
+# LIST EXERCISE --------------------------------
+
+sales_w1 = [7, 3, 42, 19, 15, 35, 9]
+sales_w2 = [12, 4, 26, 10, 7, 28]
+sales = []
+
+new_day = input('Enter a digit')
+sales_w2.append(int(new_day))
+
+# sales.extend(sales_w1)
+# sales.extend(sales_w2)
+
+sales = sales_w1 + sales_w2
+
+sales.sort()
+
+print(sales)
+worse_day_prof = sales[0] * 1.5
+best_day_prof = sales[-1] * 1.5
+combined_day_prof = worse_day_prof + best_day_prof
+
+print(f'Best day profit: {worse_day_prof}')
+print(f'Worse day profit: {best_day_prof}')
+print(f'Combined profit: {combined_day_prof}')
