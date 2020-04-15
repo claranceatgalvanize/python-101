@@ -197,25 +197,25 @@ friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham'] # creating a list
 
 # LIST EXERCISE --------------------------------
 
-sales_w1 = [7, 3, 42, 19, 15, 35, 9]
-sales_w2 = [12, 4, 26, 10, 7, 28]
-sales = []
+# sales_w1 = [7, 3, 42, 19, 15, 35, 9]
+# sales_w2 = [12, 4, 26, 10, 7, 28]
+# sales = []
 
-new_day = input('Enter a digit')
-sales_w2.append(int(new_day))
+# new_day = input('Enter a digit')
+# sales_w2.append(int(new_day))
 
-# sales.extend(sales_w1)
-# sales.extend(sales_w2)
+# # sales.extend(sales_w1)
+# # sales.extend(sales_w2)
 
-sales = sales_w1 + sales_w2
+# sales = sales_w1 + sales_w2
 
-sales.sort()
+# sales.sort()
 
-print(sales)
-worse_day_prof = sales[0] * 1.5
-best_day_prof = sales[-1] * 1.5
-combined_day_prof = worse_day_prof + best_day_prof
+# print(sales)
+# worse_day_prof = sales[0] * 1.5
+# best_day_prof = sales[-1] * 1.5
+# combined_day_prof = worse_day_prof + best_day_prof
 
-print(f'Best day profit: {worse_day_prof}')
-print(f'Worse day profit: {best_day_prof}')
-print(f'Combined profit: {combined_day_prof}')
+# print(f'Best day profit: {worse_day_prof}')
+# print(f'Worse day profit: {best_day_prof}')
+# print(f'Combined profit: {combined_day_prof}')
