@@ -137,7 +137,7 @@
 
 # WORKING WITH LIST ###########################################
 
-friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham'] # creating a list
+# friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham'] # creating a list
 
 # ACCESSING LIST ELEMENTS -------------------------------------
 
@@ -219,3 +219,37 @@ friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham'] # creating a list
 # print(f'Best day profit: {worse_day_prof}')
 # print(f'Worse day profit: {best_day_prof}')
 # print(f'Combined profit: {combined_day_prof}')
+
+# WORKING WITH SPLIT AND JOIN ##################################
+
+# msg ='Welcome   to   Python   101:   Split   and   Join'
+# csv = 'Eric,John,Michael,Terry,Graham'
+# friends_list = ['Eric','John','Michael','Terry','Graham']
+
+# character_list = list(msg)
+# word_list = msg.split()
+# csv_split = csv.split(',')
+
+# friend = '--'.join(friends_list)
+
+# join_msg = msg.replace(' ', '-')
+# print(join_msg)
+
+# SPLIT AND JOIN EXERCISE --------------------------------------
+
+csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
+friends_list = ['Exercise: fill me with names']
+# From the list above fill a list(friends_list) properly
+# with the names of all the friends. One per "slot"
+# you may need to run same command several times
+# use print() statements to work your way through the exercise
+names = csv.replace(';', ',')
+names = names.replace(':', ',')
+names = names.split(',')
+
+friends_list = names[:]
+
+print('')
+print(names)
+print('')
+print('Friends: ',friends_list)
