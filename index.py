@@ -237,19 +237,27 @@
 
 # SPLIT AND JOIN EXERCISE --------------------------------------
 
-csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
-friends_list = ['Exercise: fill me with names']
+# csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
+# friends_list = ['Exercise: fill me with names']
 # From the list above fill a list(friends_list) properly
 # with the names of all the friends. One per "slot"
 # you may need to run same command several times
 # use print() statements to work your way through the exercise
-names = csv.replace(';', ',')
-names = names.replace(':', ',')
-names = names.split(',')
+# names = csv.replace(';', ',')
+# names = names.replace(':', ',')
+# names = names.split(',')
 
-friends_list = names[:]
+# friends_list = names[:]
 
-print('')
-print(names)
-print('')
-print('Friends: ',friends_list)
+# print('')
+# print(names)
+# print('')
+# print('Friends: ',friends_list)
+
+# WORKING WITH TUPLE ##################################
+
+# TUPLE DEFINATION ------------------------------------
+# friends_tuple = ('John','Michael','Terry','Eric','Graham')
+# friends_tuple = 'gus'
+# print(friends_tuple)
+
