@@ -261,3 +261,30 @@
 # friends_tuple = 'gus'
 # print(friends_tuple)
 
+# WORKING WITH SETS
+
+# friends = ['John','Michael','Terry','Eric','Graham']
+# friends_tuple = ('John','Michael','Terry','Eric','Graham')
+# friends_set = {'John','Michael','Terry','Eric','Graham','Eric'}
+# my_friends_set = {'Reg','Loretta','Colin','Eric','Graham'}
+
+# mutual_friends = friends_set.intersection(my_friends_set)
+# my_friends = friends_set.difference(my_friends_set)
+# our_friends = friends_set.union(my_friends_set)
+
+# print('mutual friends: ', mutual_friends)
+# print('my friends: ', my_friends)
+# print('our friends: ', our_friends)
+
+# #Sets - blazingly fast unordered Lists 
+# #empty Lists
+# empty_list = []
+# empyt_list = list()
+
+# #empty Tuple
+# empty_tuple = ()
+# empty_tuple = tuple()
+
+# #empty Set
+# empty_set = {} # this is wrong, this is a dictionary
+# empty_set = set()
